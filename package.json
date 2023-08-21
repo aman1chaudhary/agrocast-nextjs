@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@fontsource-variable/raleway": "^5.0.9",
     "@fontsource-variable/rubik": "^5.0.10",
     "axios": "^1.4.0",
     "bootstrap": "^5.3.1",
