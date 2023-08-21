@@ -1037,7 +1037,7 @@ footer .widget_services .list-2 li:before{
 }
 .dz_error-405 .dz_error{
     color: #afafaf;
-    font-family: poppins;
+	font-family: 'Poppins', sans-serif;
     font-size: 200px;
     font-weight: 700;
 	line-height: 200px;
@@ -1885,7 +1885,7 @@ svg.radial-progress:nth-of-type(6n+1) circle {
 .rubik-font h6,
 .rubik-font p,
 .rubik-font{
-	font-family:rubik;
+	font-family: 'Rubik', sans-serif;
 }
 
 /* service box */
@@ -2185,7 +2185,7 @@ svg.radial-progress:nth-of-type(6n+1) circle {
 }
 .under-construction h2{
 	font-size:100px;
-	font-family:rubik;
+	font-family: 'Rubik', sans-serif;
 	line-height:80px;
 	text-transform:uppercase;
 	color:#62aad8;
@@ -2323,7 +2323,7 @@ svg.radial-progress:nth-of-type(6n+1) circle {
 .title-bx h2{
 	color:#58468c;
 	font-size:45px;
-	font-family:'Poppins', sans-serif;
+	font-family: 'Poppins', sans-serif;
 	line-height:55px;
 	font-weight:500;
 }
@@ -2375,7 +2375,7 @@ svg.radial-progress:nth-of-type(6n+1) circle {
 	font-size:15px;
 	color:#fff;
 	font-weight:500;
-	font-family:'Poppins', sans-serif;
+	font-family: 'Poppins', sans-serif;
 	margin-bottom:0;
 }
 .bubbles-bx .icon-lg img {
@@ -2475,7 +2475,7 @@ svg.radial-progress:nth-of-type(6n+1) circle {
 }
 
 .product-box .product-details .product-title{
-	font-family:poppins;
+	font-family: 'Poppins', sans-serif;
 	font-size: 18px;
 	line-height: 24px;
 	font-weight: 400;
@@ -2497,7 +2497,7 @@ svg.radial-progress:nth-of-type(6n+1) circle {
 .product-price h4{
 	font-size:20px;
 	font-weight:500;
-	font-family:poppins;
+	font-family: 'Poppins', sans-serif;
 	color:#ff8a73;
 	margin-bottom:10px;
 }
@@ -2949,7 +2949,7 @@ footer.business-footer.footer-white .footer-bottom a{
 }
 .testimonial-flip .back:after{
 	content: "\f10e";
-	font-family: FontAwesome;
+	font-family: 'Poppins', sans-serif;
 	font-size: 60px;
 	opacity: 0.3;
 	bottom: 0px;
@@ -3337,7 +3337,7 @@ footer.business-footer.footer-white .footer-bottom a{
 }
 .pricingtable-wrapper .pricingtable-price .pricingtable-bx{
     font-weight: 700;
-    font-family: poppins;
+	font-family: 'Poppins', sans-serif;
     font-size: 32px;
 	line-height: 40px;
 	color: unset;
@@ -3922,7 +3922,7 @@ button:focus{
     font-size: 162px;
     display: inline;
     position: relative;
-    font-family: "Roboto",sans-serif;
+	font-family: 'Raleway', sans-serif;
 }
 .coming-head h2 span {
     font-size: 35px;
@@ -4319,7 +4319,7 @@ button:focus{
 	animation: dzMove1 9s linear infinite;
 }
 .home-banner-2 .sub-title{
-	font-family:Poppins, sans-serif;
+	font-family: 'Poppins', sans-serif;
 	color:rgb(132, 132, 132);
 	font-size:20px;
 	font-weight: 500;
@@ -4337,7 +4337,7 @@ button:focus{
 	font-size:60px;
 	font-weight:500;
 	line-height:1.2;
-	font-family:Poppins, sans-serif;
+	font-family: 'Poppins', sans-serif;
 	    margin-bottom: 15px;
 		animation: dzMove1 10s linear infinite;
 }
