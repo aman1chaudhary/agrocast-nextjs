@@ -1,0 +1,269 @@
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.main_nav_container {
+    /* position:sticky; */
+    position:fixed;
+    top: 0;
+    width: 100vw;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    z-index: 10000 !important;
+
+}
+
+.short_nav_container {
+    width: 100%;
+    height: 50px;
+    background-color: #FFF;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+
+}
+
+
+.navbar_container {
+    height: 80px;
+    background-color: #FFF;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+
+
+
+}
+
+.main_nav {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    /* max-width:960px; */
+    padding: 0px 15px;
+    align-items: center;
+}
+
+
+.navbar__toggle {
+    font-size: 28px;
+    cursor: pointer;
+    outline: none;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    padding: 5px;
+    color: rgb(0, 0, 0);
+    z-index: 10000;
+    /* margin-right: 20px; */
+}
+
+
+.navbar__logo,
+.navbar__toggle {
+    display: none;
+}
+
+
+.nav__content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+    justify-content: space-between;
+}
+
+
+.main_nav_logo {
+    width: 200px;
+    margin-left: 20px;
+
+}
+
+.main_nav_logo img {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.nav__list {
+    display: flex;
+    align-items: center;
+}
+
+.nav__item {
+    align-items: center;
+    margin-left: 0px;
+    padding: 28px 10px;
+
+    /* background-color: #0e81cf; */
+}
+
+.nav__item  {
+    line-height: 22.5px;
+
+    color: black;
+}
+
+
+.nav__item:hover {
+    color: #6cc000;
+
+}
+.dropdown_nav{
+    display: flex;
+    align-items: center;
+}
+.dropdown_nav .fa{
+    font-size: 10px;
+    padding: 5px;
+font-weight: lighter;
+
+}
+
+.dropdown_content {
+    display: none;
+    position: absolute;
+    top: 128px;
+    z-index: 10;
+    background-color: white;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 3px 3px 0px 0px;
+    border-top: 2px solid #6cc000;
+    width: 220px;
+    padding: 10px 0px;
+}
+
+.dropdown_link {
+    padding: 10px 20px;
+    width: 100%;
+    display:inline-block;
+}
+.dropdown_link:hover{
+    background-color: rgba(178, 175, 175, 0.2);
+}
+.dropdown_link {
+    color: black;
+}
+.dropdown_link:hover {
+    color: #6cc000;
+}
+
+.dropdown_nav:hover + .dropdown_content {
+    display: block;
+}
+.dropdown_content:hover{
+    display: block;
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+
+
+    .main_nav_logo {
+        width: 180px;
+    }
+    .short_nav_container{
+        display: none;
+    }
+
+    .navbar__logo {
+        display: block;
+
+    }
+
+    .navbar__toggle {
+        display: block;
+    }
+
+    .navbar_container {
+        padding: 0px 10px;
+        justify-content: space-between;
+        width: 100vw;
+    }
+
+    .main_nav {
+        position: fixed;
+        top: 0;
+        left: -100%;
+        background-color: rgb(255, 255, 255);
+        width: 100%;
+        height: 100%;
+        padding: 20px 0;
+        z-index: 10;
+        transition: .5s;
+        overflow-y: auto;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .nav__content {
+        /* padding: 0px 20px; */
+        display: block;
+    }
+
+    .show {
+        left: 0;
+    }
+
+    .navbar__logo {
+        width: 200px;
+        /* margin-left: 10px; */
+    }
+
+    .navbar__logo img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .nav__list {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        margin: 20px;
+
+    }
+
+    .nav__item {
+        width: 100%;
+        padding: 15px 0px;
+        padding: 10px 0px;
+        border-top: 1px solid rgb(223, 223, 223);
+        /* border-bottom   : 1px solid rgb(223, 223, 223); */
+
+    }
+
+    .dropdown_nav_container{
+        width: 100%;
+
+    }
+
+    .site-button, .site-button-secondry{
+        width: 100% !important;
+    }
+    .dropdown_content {
+        display: none;
+        position: relative;
+        top: 0px;
+        z-index: 10;
+        background-color: rgb(245, 245, 245);
+        /* box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2); */
+        border-radius: 3px 3px 0px 0px;
+        border-top: none;
+        width: 100%;
+        padding: 10px 0px;
+    }
+    .extra-cell{
+        width: 100%;
+        margin-top: 20px;
+    }
+
+
+
+
+
+}
