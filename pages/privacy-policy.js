@@ -60,7 +60,7 @@ const PrivacyPolicy = () => {
                     <li><b>Cookies:</b> Cookies are files with a small amount of data that are commonly used as anonymous unique identifiers. These are sent to your browser from the websites that you visit and are stored on your device’s internal memory. Some of the cookies we use are associated with your platform account (including information about you, such as the email address you gave us) and other cookies are not.</li>
                     <li>This service does not use these “cookies” explicitly. However, the application may use third party code and libraries that use “cookies” to collect information and improve their services. You have the option to either accept or refuse these cookies and know when a cookie is being sent to your device. If you choose to refuse our cookies, you may not be able to use some portion of this service.</li>
                     <li><b>Device information:</b> In addition to log data, we collect information about the device you’re using the platform on, including the type of device, operating system, settings, unique device identifiers and crash data that helps us understand when something breaks.</li>
-                    <li><b>Clickstream data and inferences:</b> When you’re on Platform, we use your activity—such as which crop you selected, and farms you created along with information you provided when you first signed up and information from our partners and advertisers to make inferences about you and your preferences. For example, if you select groundnut crop, we may infer you are engaged in the same Farm input vendors and other Agrarian chain. By these features, user may easily get connect with Farm input vendor and information on latest News.</li>
+                    <li><b>Clickstream data and inferences:</b> When you&apos;re on Platform, we use your activity—such as which crop you selected, and farms you created along with information you provided when you first signed up and information from our partners and advertisers to make inferences about you and your preferences. For example, if you select groundnut crop, we may infer you are engaged in the same Farm input vendors and other Agrarian chain. By these features, user may easily get connect with Farm input vendor and information on latest News.</li>
                     <li><b>Business Transfer:</b> We may share your Personal Information or any other information collected and stored by the Service with our parent, subsidiaries and affiliates for internal reasons in connection with the provision of the Services to You. We also reserve the right to disclose and transfer all such information:
                     </li>
                   </ul>
@@ -68,11 +68,11 @@ const PrivacyPolicy = () => {
 
                 <h4>What we do with the info we collect</h4>
                 <p>
-                  We have a legitimate interest for using your info in these ways. It's fundamental to what we do at platform and necessary in order to make Platform and its features relevant and personalized to you.<br />
+                  We have a legitimate interest for using your info in these ways. It&apos;s fundamental to what we do at platform and necessary in order to make Platform and its features relevant and personalized to you.<br />
                   We also have a legitimate interest in making Platform safe and improving our product features, so you keep finding the inspiration you want. We give all benefit when we are using your information to:<br />
                   Suggest other businesses who have similar interests. For example, if you sow groundnut, we may suggest vendor relating to seed, fertilizer, pesticides supplier, bank loan, insurance companies that you might like.<br />
 
-                  In addition to the specific circumstances above, we’ll only use your information with your consent in order to:
+                  In addition to the specific circumstances above, we&apos;ll only use your information with your consent in order to:
                   </p>
                   <ul>
                     <li>Send you weather alerts, marketing materials by email, text, push notification or phone call depending on your account or operating system settings. Each time we send you marketing materials, we give you the option to unsubscribe.</li>
@@ -96,7 +96,7 @@ const PrivacyPolicy = () => {
 
 
                 <h4>Security</h4>
-                <p>When you sign up, you voluntarily permit us to access your contact list. However, the information we access will be purely and legally used by us only, for making your sharing of the said post easier for you. The said information is completely safe with us, and we will not be using that information to sell, resell, or for the company's personal or professional use/s or purpose/s. If you don't permit us to access your contact list, you won't be able to share the said post with your contacts.
+                <p>When you sign up, you voluntarily permit us to access your contact list. However, the information we access will be purely and legally used by us only, for making your sharing of the said post easier for you. The said information is completely safe with us, and we will not be using that information to sell, resell, or for the company&apos;s personal or professional use/s or purpose/s. If you don&apos;t permit us to access your contact list, you won&apos;t be able to share the said post with your contacts.
                 </p>
 
                 <h4>Contact Permission</h4>

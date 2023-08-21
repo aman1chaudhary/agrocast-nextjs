@@ -56,7 +56,7 @@ export default function Home() {
 
                       </div>
                       <div className="col-lg-8">
-                        <p>AgroCast Analytics Pvt Ltd is an Indian registered startup that provides consultancy services in Agriculture, Water, and Climate change sectors. Our mission is to build a climate-resilient society by analyzing and eliminating the current and projected risk associated with the agriculture and water sector considering climate change threats. Our solutions have proved an extremely prudent investment since it adds social-economic value and contributes to the country's sustainable growth.</p>
+                        <p>AgroCast Analytics Pvt Ltd is an Indian registered startup that provides consultancy services in Agriculture, Water, and Climate change sectors. Our mission is to build a climate-resilient society by analyzing and eliminating the current and projected risk associated with the agriculture and water sector considering climate change threats. Our solutions have proved an extremely prudent investment since it adds social-economic value and contributes to the country&apos;s sustainable growth.</p>
                         {/* <Link href="/about" className="site-button button-long button-md radius-xl">Read More</Link> */}
                       </div>
                     </div>
@@ -264,7 +264,7 @@ export default function Home() {
                     <div className="section-head title-bx text-left">
                       <h2>Past Projects</h2>
                       <p>
-                    In our journey at AgroCast, we take immense pride in our past projects, each a testament to our unwavering commitment to agriculture, water, and climate change sectors. Our history is woven with successes in climate-resilient farming initiatives, the implementation of solar-powered agricultural solutions, optimizing water resource management, and providing crop-specific advisory programs. Through these projects, we've not only enhanced agricultural practices but also empowered communities with knowledge and tools to thrive in an ever-changing environment. Explore our rich portfolio of past endeavors, a testament to our dedication to sustainable growth and resilience
+                    In our journey at AgroCast, we take immense pride in our past projects, each a testament to our unwavering commitment to agriculture, water, and climate change sectors. Our history is woven with successes in climate-resilient farming initiatives, the implementation of solar-powered agricultural solutions, optimizing water resource management, and providing crop-specific advisory programs. Through these projects, we&apos;ve not only enhanced agricultural practices but also empowered communities with knowledge and tools to thrive in an ever-changing environment. Explore our rich portfolio of past endeavors, a testament to our dedication to sustainable growth and resilience
                     </p>
                     </div>
                     

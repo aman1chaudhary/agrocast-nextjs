@@ -76,7 +76,7 @@ const ContactPage = () => {
                             <div className="col-lg-12 col-xs-12">
                                 <form className="inquiry-form dzForm" >
                                     <div className="dzFormMsg"></div>
-                                    <h3 className="box-title m-t0 m-b10">Let's Connect <span className="bg-primary"></span></h3>
+                                    <h3 className="box-title m-t0 m-b10">Let&apos;s Connect <span className="bg-primary"></span></h3>
                                     {/* <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the</p> */}
                                     <div className="row">
                                         <div className="col-lg-6">

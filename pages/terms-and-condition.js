@@ -29,17 +29,17 @@ const TermsCondition = () => {
                                 <div className="dlab-separator bg-primary"></div>
                                 <p>Welcome to AgroCast Analytics Pvt. Ltd. (AgroCast)<br />
 
-                                    These terms and conditions outline the rules and regulations for the use of AgroCast's Website/Application.<br /><br />
+                                    These terms and conditions outline the rules and regulations for the use of AgroCast&apos;s Website/Application.<br /><br />
 
                                     By accessing this Website/Application, we assume you accept these terms and conditions. Do not continue to use AgroCast if you do not agree to all of the terms and conditions stated on this page.<br /><br />
 
-                                    The following terminology applies to these Terms and Conditions, Privacy Statement and Disclaimer Notice and all Agreements: "Client", "You" and "Your" refers to you, the person logged on this Website/Application and compliant to the Company's terms and conditions. "The Company", "Ourselves", "We", "Our" and "Us", refers to our Company. "Party", "Parties", or "Us", refers to both the Client and Ourselves. All terms refer to the offer, acceptance, and consideration of payment necessary to undertake the process of our assistance to the Client in the most appropriate manner for the express purpose of meeting the Client's needs in respect of the provision of the Company's stated services, in accordance with and subject to, prevailing laws in India. Any use of the above terminology or other words in the singular, plural, capitalization and/or he/she or they are taken as interchangeable and therefore as referring to the same.</p>
+                                    The following terminology applies to these Terms and Conditions, Privacy Statement and Disclaimer Notice and all Agreements: "Client", "You" and "Your" refers to you, the person logged on this Website/Application and compliant to the Company&apos;s terms and conditions. "The Company", "Ourselves", "We", "Our" and "Us", refers to our Company. "Party", "Parties", or "Us", refers to both the Client and Ourselves. All terms refer to the offer, acceptance, and consideration of payment necessary to undertake the process of our assistance to the Client in the most appropriate manner for the express purpose of meeting the Client&apos;s needs in respect of the provision of the Company&apos;s stated services, in accordance with and subject to, prevailing laws in India. Any use of the above terminology or other words in the singular, plural, capitalization and/or he/she or they are taken as interchangeable and therefore as referring to the same.</p>
 
                                 <h4>Cookies</h4><p>
 
-                                    We employ the use of cookies. By accessing AgroCast, you agree to have read and are in agreement with AgroCast's Privacy Policy.
+                                    We employ the use of cookies. By accessing AgroCast, you agree to have read and are in agreement with AgroCast&apos;s Privacy Policy.
 
-                                    Most interactive Websites/Applications use cookies to let them retrieve the user's details for each visit. Our Website/Application uses cookies to enable the functionality of certain areas of the Website/Application and make the experience easier for people visiting our Website/Application. Some of our affiliate/advertising partners may also use cookies.
+                                    Most interactive Websites/Applications use cookies to let them retrieve the user&apos;s details for each visit. Our Website/Application uses cookies to enable the functionality of certain areas of the Website/Application and make the experience easier for people visiting our Website/Application. Some of our affiliate/advertising partners may also use cookies.
                                 </p>
 
                                 <h4>License</h4>
@@ -115,7 +115,7 @@ const TermsCondition = () => {
                                 <p>
                                     If you find any link on our Website/Application that is offensive for any reason, you are free to contact and inform us at any moment. We will consider your requests to remove links, but we are not obligated to do so or to respond to you directly.<br /><br />
 
-                                    AgroCast gives no warranty or assurance about the content of the Website/Application. As the Website/Application is under constant development, its contents may be incorrect or out-of-date and are subject to change without notice. While we make every effort to ensure that the Website/Application's content is accurate, we cannot accept liability for the accuracy of all content at any given point in time.</p>
+                                    AgroCast gives no warranty or assurance about the content of the Website/Application. As the Website/Application is under constant development, its contents may be incorrect or out-of-date and are subject to change without notice. While we make every effort to ensure that the Website/Application&apos;s content is accurate, we cannot accept liability for the accuracy of all content at any given point in time.</p>
 
                                 <h4>Disclaimer</h4>
                                 <p>
