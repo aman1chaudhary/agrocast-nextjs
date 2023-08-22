@@ -20,7 +20,7 @@ const ProjectMap = () => {
     <>
       <MapContainer
         center={[20.5937, 80]}
-        zoomControl={false}
+        // zoomControl={false}
         style={{ width: '100%', height: "500px", backgroundColor: 'white', boxShadow:"0 0 2px 0 rgba(0, 0, 0, 0.1)" }}
         zoom={4}
         zoomDelta={0.5}
@@ -28,11 +28,11 @@ const ProjectMap = () => {
         maxZoom={7}
 
         attributionControl={false}
-        // scrollWheelZoom={false}
+        scrollWheelZoom={false}
         minZoom={3}
-        // keyboard={false}
+        keyboard={false}
         dragging={true}
-        // touchZoom={false}
+        touchZoom={false}
         doubleClickZoom={false}
       >
 

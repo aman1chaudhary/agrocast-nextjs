@@ -1,8 +1,8 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
-import slider from './../images/main-slider/slide.png';
-import bgslider from './../images/main-slider/slide.jpg';
+import slider from '../public/images/main-slider/slide.png';
+import bgslider from '../public/images/main-slider/slide.jpg';
 import Image from 'next/image';
+import Link from 'next/link';
 
 const StaticBanner = () => {
     return (
@@ -14,7 +14,7 @@ const StaticBanner = () => {
                         <h2 className="dz-title text-primary"><span>A platform for </span><br /><strong>Agricultural Outlook</strong></h2>
                         {/* <p>Advisory start from sowing to harvesting</p> */}
                         {/* <a href='https://agrocastanalytics.com/gcc-dashboard/index.php' target='_blank' rel="noreferrer" className="site-button button-md radius-xl">Explore Dashboard</a> */}
-                        <Link to="/about" className="site-button button-md radius-xl">Know More</Link>
+                        <Link href="/about" className="site-button button-md radius-xl">Know More</Link>
                     </div>
                     <div className="col-md-6">
                         <div className="curve-img">

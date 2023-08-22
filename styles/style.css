@@ -7288,8 +7288,8 @@ a,
 	line-height: 27px;
 }
 .site-button.circle {
-	width:40px;
-	height:40px;
+	width:40px !important;
+	height:40px !important;
 	padding: 0;
 	border-radius:40px;
 	line-height: 39px;
@@ -11177,7 +11177,7 @@ footer.footer-white .footer-bottom a {
 }
 @media only screen and (max-width: 991px) {
     .page-content {
-        margin-top: 0;
+        margin-top: 80px;
     }
 }
 /*---------------------------------------------------------------

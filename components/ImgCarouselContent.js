@@ -2,16 +2,7 @@ import React, {Component} from 'react';
 import Slider from "react-slick";
 
 
-// const contentBlog =[
-// 	{icons: <i className="flaticon-notebook" />, title: 'Validation', para: 'Mobile App or Website',},
-// 	{icons: <i className="flaticon-file" />, title: 'Launching', para: 'Helping you with the Initial',},
-// 	{icons: <i className="flaticon-devices" />, title: 'Development', para: 'Mobile App or Website',},
-// 	{icons: <i className="flaticon-rocket-ship" />, title: 'Launching', para: 'Helping you identify the',},
-// 	{icons: <i className="flaticon-file" />, title: 'Development', para: 'Helping you with the Initial',},
-	
-// ]
 const contentBlog =[
-    // {icons: <i className="fa fa-globe" aria-hidden="true"/>, title: 'Our Mission', para: 'Empowering Agriculture, Water, and Climate Change Sectors',},
     {icons: <i className="fa fa-analytics" aria-hidden="true"/>, title: 'Climate Resilience', para: 'Analyzing and Mitigating Climate Change Risks',},
     {icons: <i className="flaticon-investment" />, title: 'Proven Solutions', para: 'Adding Socio-Economic Value and Sustainable Growth',},
     {icons: <i class="fa fa-solid fa-satellite"/>, title: 'Satellite Insights', para: 'Utilizing Satellite Data for Informed Decisions',},

@@ -18,6 +18,7 @@ import ClientCarousel from '../components/ClientCarousel'
 import HomeContactForm from '../components/HomeContactForm';
 import Footer from '../components/Footer';
 import { useRef } from 'react';
+import StaticBanner from '../components/StaticBanner';
 
 
 const ProjectMap = dynamic(() => import('../components/ProjectMap'), {
@@ -172,7 +173,7 @@ export default function Home() {
             <div className="section-full bg-white content-inner-2 m-t50">
               <div className="container">
                 <div className="row equal-wraper3">
-                  <div className="col-lg-5 equal-col dis-tbl m-b30">
+                  <div className="col-lg-5 dis-tbl m-b30">
                     <div className="dis-tbl-cell  m-b30">
                       <div className="section-head title-bx">
                         <h2>Agrocast Dashboard</h2>
@@ -190,8 +191,10 @@ export default function Home() {
                       <a href='https://agrocastanalytics.com/gcc-dashboard/index.php' className="site-button  btn-icon" target='blank'>Explore Dashboard <i className="fa fa-angle-double-right"></i></a>
                     </div>
                   </div>
-                  <div className="col-lg-7 equal-col" >
+                  <div className="col-lg-7 m-b30" >
+                  <div className="container">
                     <Image src={gifImg} alt="" />
+                    </div>
                   </div>
                 </div>
               </div>

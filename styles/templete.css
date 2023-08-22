@@ -620,7 +620,7 @@ footer .widget_services .list-2 li:before{
 @media only screen and (max-width: 767px) {
 	
 	.slide-content-box{
-		text-align:center;
+		/* text-align:center; */
 	}
 	.owl-slider.owl-theme .owl-dots {
 		bottom: 180px;

@@ -5,13 +5,13 @@ import Image from 'next/image'
 const Footer = () => {
   return (
     <>
-      <footer className="site-footer text-uppercase footer-white" >
+      <footer className="site-footer  footer-white" >
         <div className="footer-top">
           <div className="container">
             <div className="row">
               <div className="col-5 col-lg-2 col-md-6 col-sm-6 footer-col-4">
                 <div className="widget widget_services border-0">
-                  <h5 className="m-b30 text-white">Company</h5>
+                  <h5 className="m-b30 text-white text-uppercase">Company</h5>
                   <ul>
                     <li><Link href="/">Home </Link></li>
                     <li><Link href="/about">About Us</Link></li>
@@ -23,7 +23,7 @@ const Footer = () => {
               </div>
               <div className="col-7 col-lg-2 col-md-6 col-sm-6 footer-col-4">
                 <div className="widget widget_services border-0">
-                  <h5 className="m-b30 text-white">Useful Link</h5>
+                  <h5 className="m-b30 text-white text-uppercase">Useful Links</h5>
                   <ul>
                     {/* <li><Link href="/faqs">Faq's</Link></li> */}
                     <li><Link href="/terms-and-condition">Terms and Conditions </Link></li>
@@ -35,7 +35,7 @@ const Footer = () => {
               </div>
               <div className="col-lg-4 col-md-6 col-sm-6 footer-col-4">
                 <div className="widget widget_getintuch">
-                  <h5 className="m-b30 text-white ">Contact us</h5>
+                  <h5 className="m-b30 text-white text-uppercase">Contact us</h5>
                   <ul>
                     <li><i className="ti-location-pin"></i><strong>Address</strong>Research Park, IIT Gandhinagar, Gujarat, 382355</li>
                     <li><i className="ti-mobile"></i><strong>Phone</strong>+91 7600756598</li>
@@ -61,9 +61,9 @@ const Footer = () => {
                                         </div> */}
                   <ul className="list-inline m-a0">
                     <li><Link href={"#"} className="site-button facebook circle mr-1"><i className="fa fa-facebook"></i></Link></li>
-                    <li><Link href={"#"} className="site-button google-plus circle mr-1"><i className="fa fa-google-plus"></i></Link></li>
+                    {/* <li><Link href={"#"} className="site-button google-plus circle mr-1"><i className="fa fa-google-plus"></i></Link></li> */}
                     <li><Link href={"#"} className="site-button linkedin circle mr-1"><i className="fa fa-linkedin"></i></Link></li>
-                    <li><Link href={"#"} className="site-button instagram circle mr-1"><i className="fa fa-instagram"></i></Link></li>
+                    {/* <li><Link href={"#"} className="site-button instagram circle mr-1"><i className="fa fa-instagram"></i></Link></li> */}
                     <li><Link href={"#"} className="site-button twitter circle mr-1"><i className="fa fa-twitter"></i></Link></li>
                   </ul>
                 </div>
