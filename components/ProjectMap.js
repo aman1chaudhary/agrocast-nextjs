@@ -85,6 +85,15 @@ const ProjectMap = () => {
 
           
         </FeatureGroup>
+        <div className='desktop_legend_container'>
+        <div className="legend_container">
+            <h5>Legend</h5>
+                <div  className="legend_item">
+                    <span className="legend_item_circle" style={{ backgroundColor: "blue" }} />
+                    <span className="legend-label">Sites we have<br/> worked so far.</span>
+                </div>
+        </div>
+        </div>
 
 
       </MapContainer>

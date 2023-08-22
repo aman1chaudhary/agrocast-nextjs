@@ -265,7 +265,7 @@ export default function Home() {
                   </div>
                   <div className='col-lg-6 col-md-12 p-tb20 p-lr30'>
                     <div className="section-head title-bx text-left">
-                      <h2>Past Projects</h2>
+                      <h2>A Glance of Our Work</h2>
                       <p>
                     In our journey at AgroCast, we take immense pride in our past projects, each a testament to our unwavering commitment to agriculture, water, and climate change sectors. Our history is woven with successes in climate-resilient farming initiatives, the implementation of solar-powered agricultural solutions, optimizing water resource management, and providing crop-specific advisory programs. Through these projects, we&apos;ve not only enhanced agricultural practices but also empowered communities with knowledge and tools to thrive in an ever-changing environment. Explore our rich portfolio of past endeavors, a testament to our dedication to sustainable growth and resilience
                     </p>
