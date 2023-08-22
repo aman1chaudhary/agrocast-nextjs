@@ -130,11 +130,11 @@ const AboutPage = () => {
                     </div>
 
 
-                    <div className="section-full content-inner" style={{ backgroundImage: "url(" + bnr3.src + ")" }}>
+                    {/* <div className="section-full content-inner" style={{ backgroundImage: "url(" + bnr3.src + ")" }}>
                         <div className="container">
                             <div className="section-head text-black text-center">
                                 <h2 className="text-uppercase m-b10">AGROCAST FEATURES</h2>
-                                {/* <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry has been the industry's standard dummy text ever since the been when an unknown printer.</p> */}
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry has been the industry's standard dummy text ever since the been when an unknown printer.</p>
                             </div>
                             <div className="row text-center">
                                 {AgrocastFeatures.map((item, index) => (
@@ -143,14 +143,14 @@ const AboutPage = () => {
                                             <div className="dlab-media dlab-img-effect rotate"> <Image src={item.image} alt="" /></div>
                                             <div className="dlab-info p-a20 border-1 bg-white" style={{ minHeight: "120px" }}>
                                                 <h5 className="dlab-title m-t0">{item.title}</h5>
-                                                {/* <p className="m-b0">Lorem ipsum dolor Fusce varius euismod lacus eget feugiat rorem ipsum dolor consectetur...</p> */}
+                                                <p className="m-b0">Lorem ipsum dolor Fusce varius euismod lacus eget feugiat rorem ipsum dolor consectetur...</p>
                                             </div>
                                         </div>
                                     </div>
                                 ))}
                             </div>
                         </div>
-                    </div>
+                    </div> */}
 
       
 
