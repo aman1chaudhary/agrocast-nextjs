@@ -14,12 +14,24 @@ const myIcon = new L.Icon({
   iconSize: [20],
 });
 
+
+ const setDragging=()=> {
+  var viewportWidth = window.innerWidth;
+  var dragging;
+  if (viewportWidth <= [767]) {
+    dragging = false;
+  } if (viewportWidth >= [768]) {
+    dragging = true;
+  } 
+  return dragging;
+}
+
 const ProjectMap = () => {
 
   return (
     <>
       <MapContainer
-        center={[20.5937, 80]}
+        center={[20, 82]}
         // zoomControl={false}
         style={{ width: '100%', height: "500px", backgroundColor: 'white', boxShadow:"0 0 2px 0 rgba(0, 0, 0, 0.1)" }}
         zoom={4}
@@ -31,7 +43,7 @@ const ProjectMap = () => {
         scrollWheelZoom={false}
         minZoom={3}
         keyboard={false}
-        dragging={true}
+        dragging={setDragging()}
         touchZoom={false}
         doubleClickZoom={false}
       >
@@ -85,15 +97,14 @@ const ProjectMap = () => {
 
           
         </FeatureGroup>
-        <div className='desktop_legend_container'>
         <div className="legend_container">
-            <h5>Legend</h5>
+            {/* <h5>Legend</h5> */}
                 <div  className="legend_item">
                     <span className="legend_item_circle" style={{ backgroundColor: "blue" }} />
                     <span className="legend-label">Sites we have<br/> worked so far.</span>
                 </div>
         </div>
-        </div>
+
 
 
       </MapContainer>

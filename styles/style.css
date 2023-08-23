@@ -13047,6 +13047,10 @@ footer .widget_services ul li:hover {
     .footer-bottom [class*="clo-"] {
         width: 100%;
     }
+    .footer-bottom {
+        padding: 10px 0;
+        font-size: 14px;
+    }
 }
 
 /* Subscribe Form */

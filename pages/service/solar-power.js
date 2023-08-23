@@ -64,7 +64,7 @@ const SolarService = () => {
                         <div className="col-lg-6 col-md-12 m-b30 about-img ">
                             <Image src={SolarService1} data-tilt alt='Service' />
                         </div>
-                        <div className="col-lg-6 col-md-12 m-b30 dis-tbl text-justify">
+                        <div className="col-lg-6 col-md-12 m-b30 dis-tbl ">
                             <div className="dis-tbl-cell">
                                 <h3 className="box-title">Solar Power Solutions for Sustainable Energy<span className="bg-primary"></span></h3>
                                 {/* <p className="font-18"><b>Receive bad weather alerts</b></p> */}
@@ -73,12 +73,12 @@ const SolarService = () => {
                         </div>
                     </div>
                     <div className="row dzseth column-reverse m-b30">
-                        <div className="col-lg-6 col-md-12 dis-tbl text-justify">
+                        <div className="col-lg-6 col-md-12 dis-tbl ">
                             <div className="dis-tbl-cell">
                                 <h3 className="box-title">Illuminating Farms with Solar Brilliance<span className="bg-primary"></span></h3>
-                                <p className="font-18">
-                                    {/* <b>Understand climate variability</b> */}
-                                </p>
+                                {/* <p className="font-18">
+                                    <b>Understand climate variability</b>
+                                </p> */}
                                 <p className="font-16">
                                 Introducing Agrocast&apos;s Solar Power service – your gateway to a brighter and more sustainable future. Imagine fields bathed in sunlight, not only nurturing crops but also generating power to fuel your operations. Our expert team specializes in crafting solar solutions that seamlessly integrate with your farm&apos;s layout and energy requirements. By harnessing the power of solar panels, you&apos;ll not only enjoy reduced energy costs but also contribute to a more resilient and environmentally conscious agricultural industry. From initial assessment to system installation and ongoing maintenance, Agrocast is your partner in cultivating clean energy for a thriving tomorrow.
                                 </p>
@@ -94,10 +94,10 @@ const SolarService = () => {
                         <div className="col-lg-6 col-md-12 m-b30 about-img ">
                             <Image src={SolarService3} data-tilt alt='Service' />
                         </div>
-                        <div className="col-lg-6 col-md-12 m-b30 dis-tbl text-justify">
+                        <div className="col-lg-6 col-md-12 m-b30 dis-tbl ">
                             <div className="dis-tbl-cell">
                                 <h3 className="box-title">Cultivating Energy Independence through Solar Innovation<span className="bg-primary"></span></h3>
-                                <p className="font-18"><b>Know climate risk</b></p>
+                                {/* <p className="font-18"><b>Know climate risk</b></p> */}
                                 <p className="font-16">Discover the potential of solar energy with Agrocast&apos;s cutting-edge Solar Power service. We understand that modern agriculture relies on dependable energy sources, and our solar solutions provide a sustainable answer. Our team of experts works closely with you to design solar systems that align with your farm&apos;s energy needs and goals. By embracing solar power, you&apos;re not just investing in a renewable energy source – you&apos;re investing in the future resilience of your agricultural enterprise. With Agrocast&apos;s Solar Power service, cultivate energy independence, reduce operating costs, and pave the way for a greener, more prosperous farming journey.</p>
                             </div>
                         </div>

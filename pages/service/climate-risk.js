@@ -70,7 +70,7 @@ const ClimateRiskService = () => {
                         <div className="col-lg-6 col-md-12 m-b30 about-img ">
                             <Image src={ClimateService1} data-tilt alt='Service' />
                         </div>
-                        <div className="col-lg-6 col-md-12 m-b30 dis-tbl text-justify">
+                        <div className="col-lg-6 col-md-12 m-b30 dis-tbl ">
                             <div className="dis-tbl-cell">
                                 <h3 className="box-title">Extreme Weather Warning<span className="bg-primary"></span></h3>
                                 <p className="font-18"><b>Receive bad weather alerts</b></p>
@@ -79,7 +79,7 @@ const ClimateRiskService = () => {
                         </div>
                     </div>
                     <div className="row dzseth column-reverse m-b30">
-                        <div className="col-lg-6 col-md-12 dis-tbl text-justify">
+                        <div className="col-lg-6 col-md-12 dis-tbl ">
                             <div className="dis-tbl-cell">
                                 <h3 className="box-title">Climate Change Assessment<span className="bg-primary"></span></h3>
                                 <p className="font-18">
@@ -100,7 +100,7 @@ const ClimateRiskService = () => {
                         <div className="col-lg-6 col-md-12 m-b30 about-img ">
                             <Image src={ClimateService3} data-tilt alt='Service' />
                         </div>
-                        <div className="col-lg-6 col-md-12 m-b30 dis-tbl text-justify">
+                        <div className="col-lg-6 col-md-12 m-b30 dis-tbl ">
                             <div className="dis-tbl-cell">
                                 <h3 className="box-title">Climate Resilience Strategy<span className="bg-primary"></span></h3>
                                 <p className="font-18"><b>Know climate risk</b></p>
